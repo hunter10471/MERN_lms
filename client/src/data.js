@@ -36,7 +36,6 @@ export const sidebarData = [
   },
 ];
 
-
 export const countCardData = [
   {
     title: 'enrolled courses',
@@ -64,3 +63,45 @@ export const countCardData = [
   },
 ];
 
+export const tableData = [
+  {
+    title: 'UI/UX',
+    lessons: '10/12',
+    duration: '10h',
+    instructor: 'Mr.John',
+    img2: 'https://img.freepik.com/free-vector/prototyping-process-concept-illustration_114360-2741.jpg?w=826&t=st=1661285418~exp=1661286018~hmac=664386ac468716cf1e5fa58fae481e83c74669b8f736d60bce08ff744d4458ab',
+    img: 'https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80',
+  },
+  {
+    title: 'Web Development',
+    lessons: '08/16',
+    duration: '20h',
+    instructor: 'Dr.Smith',
+    img2: 'https://img.freepik.com/premium-vector/mobile-app-icon-3d-colored-illustration-from-creative-package-collection-creative-mobile-app-icon-web-design-templates-infographics-more_676904-83.jpg?w=826',
+    img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+  },
+  {
+    title: 'Data Structures & Algorithms',
+    lessons: '13/24',
+    duration: '08h',
+    instructor: 'Ms.Smith',
+    img2: 'https://img.freepik.com/premium-vector/concept-big-data-processing-energy-station-future-server-room-rack-data-center-isometric-illustration_126283-2079.jpg?w=1060',
+    img: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80',
+  },
+  {
+    title: 'Theory Of Programming Languages',
+    lessons: '11/15',
+    duration: '17h',
+    instructor: 'Mr.John',
+    img2: 'https://cdn-icons-png.flaticon.com/512/627/627466.png?w=826&t=st=1661285506~exp=1661286106~hmac=c1bd8338db73babd07a835b07591173b9430913243dcef7c0cc1f0872d4d1b1c',
+    img: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+  },
+];
+
+
+
+export const recommendData = [
+  {
+    
+  }
+];

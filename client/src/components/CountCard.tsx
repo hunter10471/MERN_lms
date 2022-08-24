@@ -14,12 +14,12 @@ const CountCard = (props: ICountCardProps) => {
         <span style={{backgroundColor: props.color}} className='p-[2px] rounded-md text-white opacity-90'>{props.icon}</span>
         {props.title}
       </span>
-      <h2
+      <h3
         style={{ borderBottomColor: props.color }}
         className='font-heading font-bold my-2 text-secondary text-4xl pb-3 w-fit border-b-2'
       >
         {props.value}
-      </h2>
+      </h3>
     </div>
   );
 };
