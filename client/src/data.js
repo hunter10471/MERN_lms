@@ -102,6 +102,27 @@ export const tableData = [
 
 export const recommendData = [
   {
-    
-  }
+    title: 'Full-Stack Development',
+    tag: ['HTML', 'CSS', 'JS'],
+    img: 'https://img.freepik.com/premium-vector/program-construction-coding-development-software-conceept_133260-2634.jpg?w=826',
+    lessons: 10,
+    duration: 20,
+    color: '#ffcdd2',
+  },
+  {
+    title: 'UI/UX',
+    tag: ['Design', 'Figma'],
+    img: 'https://img.freepik.com/free-vector/ui-ux-app-development-concept_52683-48848.jpg?w=1380&t=st=1661292328~exp=1661292928~hmac=e0303508bbc9c265191b6a62140759dca12687dffa0c4a99c3f1c805e00fd47c',
+    lessons: 10,
+    duration: 20,
+    color: '#c8e6c9',
+  },
+  {
+    title: 'DBMS',
+    tag: ['Database', 'SQL'],
+    img: 'https://img.freepik.com/free-vector/data-network-illustration_24908-57878.jpg?w=826&t=st=1661431571~exp=1661432171~hmac=240fedac83f2ab63a74cc8ead6063ebccccaa045567f15abc581d6dfaaf0b6ff',
+    lessons: 10,
+    duration: 20,
+    color: '#c5cae9',
+  },
 ];

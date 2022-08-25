@@ -5,23 +5,21 @@ interface IRecommendationCardProps{
     title: string;
     tag: string[];
     lessons: number;
-    duration: string;
+    duration: number;
     color: string;
 }
 
 const RecommendCard = (props: IRecommendationCardProps) => {
   return (
       <div className='max-w-[250px] cursor-pointer'>
-          <div style={{backgroundColor:props.color}} className='w-full h-[120px] flex justify-center items-center'>
-          <img className='w-[50%] h-[50%] object-cover' src={props.img} alt="" />
-          </div>
+          <img style={{backgroundColor:props.color}} className='w-[250px] h-[200px] object-cover p-6 rounded-md ' src={props.img} alt="" />
           <div>
-              <div className='flex gap-2 flex-wrap my-2 text-amber-600'>{props.tag.map((el, index) => {
+              <div className='flex gap-3 flex-wrap my-2 text-amber-600'>{props.tag.map((el, index) => {
                   return <span key={index} >{ el }</span>
               })}</div>
-              <h3 className='font-medium my-2'>{props.title}</h3>
-              <div>
-                  <span>{props.lessons} lessons</span>
+              <h3 className='font-medium'>{props.title}</h3>
+              <div className='flex gap-2 text-neutral-500'>
+                  <span className='pr-2 border-r-[4px]'>{props.lessons} lessons</span>
                   <span>{ props.duration } hours</span>
               </div>
           </div>
