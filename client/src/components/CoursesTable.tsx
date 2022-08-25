@@ -7,7 +7,7 @@ const CoursesTable = () => {
     <table className='my-4 '>
       <thead>
         <tr className='border-b-2 mb-5'>
-          <th className='p-4 pl-0 text-neutral-400 font-medium  text-left'>
+          <th className='p-4 text-neutral-400 font-medium  text-left'>
             Course Name
           </th>
           <th className='p-4 text-neutral-400 font-medium  '>
@@ -20,8 +20,8 @@ const CoursesTable = () => {
       <tbody>
         {tableData.map((el, index) => {
           return (
-            <tr className='font-medium odd:bg-neutral-50' key={index}>
-              <td className='p-4 pl-0 flex items-center gap-4 max-w-[200px] '>
+            <tr className='font-medium odd:bg-neutral-100' key={index}>
+              <td className='p-4 flex items-center gap-4 max-w-[250px]'>
                 <img
                   className='w-[42px] h-[42px] rounded-md object-cover object-center '
                   src={el.img2}

@@ -14,7 +14,7 @@ const Sidebar = () => {
         {sidebarData.map((el, index) => {
           const homePage = el.title === 'overview';
           return (
-            <li key={index}>
+            <li title={el.title} key={index}>
               <Link
                 className={`flex items-center gap-2 w-full capitalize px-4 py-2 text-neutral-400 hover:text-white hover:bg-primary font-heading hover:shadow-lg ${
                 location === el.title && 'bg-primary text-white shadow-lg'

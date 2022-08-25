@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div className='flex'>
         <Sidebar />
-        <div>
+        <div className='w-full'>
           <Topbar />
           <Routes>
             <Route path='/' element={<Home />} />
