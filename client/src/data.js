@@ -125,4 +125,20 @@ export const recommendData = [
     duration: 20,
     color: '#c5cae9',
   },
+  {
+    title: 'DBMS',
+    tag: ['Database', 'SQL'],
+    img: 'https://img.freepik.com/free-vector/data-network-illustration_24908-57878.jpg?w=826&t=st=1661431571~exp=1661432171~hmac=240fedac83f2ab63a74cc8ead6063ebccccaa045567f15abc581d6dfaaf0b6ff',
+    lessons: 10,
+    duration: 20,
+    color: '#c5cae9',
+  },
+  {
+    title: 'DBMS',
+    tag: ['Database', 'SQL'],
+    img: 'https://img.freepik.com/free-vector/data-network-illustration_24908-57878.jpg?w=826&t=st=1661431571~exp=1661432171~hmac=240fedac83f2ab63a74cc8ead6063ebccccaa045567f15abc581d6dfaaf0b6ff',
+    lessons: 10,
+    duration: 20,
+    color: '#c5cae9',
+  },
 ];
